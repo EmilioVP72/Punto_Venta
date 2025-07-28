@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
     return $request->user();
 });*/
 Route::get('/saludo', function () {
-    return response()->json(['mensaje' => '¡Hola desde Laravel!']);
+    return response()->json(['mensaje' => '¡Hola desde Laravel :)!']);
 });
 
