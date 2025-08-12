@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+.body-main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-main{
+    flex: 1;
+}
+
+.header-main{
+    display: flex;
+    justify-content: start;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+}
