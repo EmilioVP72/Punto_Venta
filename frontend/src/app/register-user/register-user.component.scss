@@ -1,0 +1,60 @@
+// Inputs
+input{
+    height: 2.5rem;
+    width: 20rem;
+    
+}
+
+input::placeholder{
+    padding-left: 0.8rem;
+
+}
+
+p{
+    display: flex;
+    size: 4rem;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.inputsFullName{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputs-email{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+//buttons
+button{
+    height: 2rem;
+    width: 5rem;
+}
+
+.buttons-register{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-register:hover{
+    background-color: black;
+}
+
+//titulos y parrafos
+
+.tittle-register{
+    display: flex;
+    justify-content: center;
+}
